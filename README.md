@@ -138,15 +138,7 @@ Each topic folder contains:
 
 ---
 
-## 📈 Complexity Focus
-
-Every implementation includes:
-
-```java
-// Time Complexity:
-// Space Complexity:
-
-**Java | DSA | Logical Thinking | Placement Preparation**
+**Java | DSA | Logical Thinking **
 👩‍💻 Author
 Sneha 
 B.Tech CSE (IoT & CS)
