@@ -139,6 +139,6 @@ Each topic folder contains:
 ---
 
 **Java | DSA | Logical Thinking **
-👩‍💻 Author
+👩‍💻 Author:- 
 Sneha 
-B.Tech CSE (IoT & CS)
+{B.Tech CSE (IoT & CS)}
