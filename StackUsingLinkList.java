@@ -1,3 +1,4 @@
+// Linked List Node class
 class Node{
     int data;
     Node next;
@@ -8,6 +9,7 @@ class Node{
     }
 }
 
+// Stack class using Linked List
 class Stack{
     Node top;
     int count = 0;
