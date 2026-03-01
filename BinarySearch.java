@@ -2,7 +2,7 @@ import java.util.*;
 
 public class BinarySearch {
 
-    // Iterative Binary Search
+    // method-1 Iterative Binary Search
     public static int binarySearch1(int[] arr, int t){
         int left = 0, right = arr.length - 1;
         int count = 0;
@@ -27,7 +27,7 @@ public class BinarySearch {
     }
 
 
-    // Recursive Binary Search
+    //method-2  Recursive Binary Search
     public static int binarySearch2(int[] arr, int t , int left, int right, int count){
 
         if(left > right){
