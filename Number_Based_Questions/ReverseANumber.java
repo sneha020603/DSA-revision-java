@@ -1,6 +1,9 @@
 
 public class ReverseANumber {
 
+    // To reverse a number, we can repeatedly extract the last digit of the number and build the reversed number by appending these digits in reverse order.
+    // For example, if we have the number 237, we can reverse it as follows
+    
     public static int reverse(int n){
         int temp =n;
         int rev= 0,rem = 0;
