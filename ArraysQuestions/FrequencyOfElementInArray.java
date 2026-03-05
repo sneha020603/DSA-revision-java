@@ -1,6 +1,10 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
+// Find the frequency of each element in the array.
+// Input: arr[] = {10, 20, 10, 30, 20, 10}
+// Output: 10 : 3
+
 public class FrequencyOfElementInArray {
 
     public static void frequency(int[] arr){

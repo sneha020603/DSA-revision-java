@@ -1,7 +1,14 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
+// Find the element with the maximum frequency in the array.
+// For example, in the array [10, 20, 10, 30, 20, 10], the element with the maximum frequency is 10, which appears 3 times.
+
 public class ReturnMaxFreqElemINArray {
+
+    // Approach: HashMap to count frequencies
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
 
     public static void maxFrequencyElement(int[] arr) {
         HashMap<Integer,Integer> map = new HashMap<>();

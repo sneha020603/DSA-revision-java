@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
+// Move all zeros to the end of the array while maintaining the relative order of the non-zero elements.
+// For example, given the array [0, 1, 0, 3, 12], the output should be [1, 3, 12, 0, 0].    
+// The non-zero elements (1, 3, 12) maintain their original order, while the zeros are moved to the end.
+
 public class MoveZerosAtEndOfArray {
+
+    // Approach: Two Pointer Technique
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
 
     public static int[] moveZeros(int[] arr, int n) {
         
