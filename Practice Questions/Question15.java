@@ -17,14 +17,14 @@ public class Question15 {
         int sum=0;
 
         while (num > 9) {
-            sum = 0; // Reset sum for each iteration    
+            sum = 0; // Reset sum for each iterations   
         while(num > 0){
             rem = num % 10;
             sum += rem;
             num = num/10;
         }
 
-        num = sum; // Update num to the sum of digits
+        num = sum; // Update num to the sum of digits for the next iteration
         }
 
         System.out.println(sum);
