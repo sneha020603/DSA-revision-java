@@ -1,9 +1,8 @@
 **Mastering Data Structures & Algorithms — One Concept at a Time**
 
-# 📘 DSA Placement Revision in Java
+# 📘 DSA Placement Revision (in Java)
 
 A structured and systematic revision of Data Structures and Algorithms in Java, designed specifically for technical interview and placement preparation.
-
 This repository focuses on clarity of concepts, clean implementations, complexity analysis, and commonly asked interview patterns.
 
 ---
