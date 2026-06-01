@@ -14,6 +14,7 @@ public class MaxSubArraySum {
     }
 
     private static void maxSum(int[] arr) {
+
         if (arr.length == 0) {
             System.out.println(0);
             return;
@@ -22,11 +23,11 @@ public class MaxSubArraySum {
         int maxCurr = 0;
         int maxSum = Integer.MIN_VALUE;
 
-        for(int i:arr){
+        for (int i : arr) {
             maxCurr = Math.max(maxCurr + i, i);
             maxSum = Math.max(maxCurr, maxSum);
 
-            if(maxCurr < 0){
+            if (maxCurr < 0) {
                 maxCurr = 0;
             }
         }
