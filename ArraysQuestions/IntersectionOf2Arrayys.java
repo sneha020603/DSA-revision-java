@@ -27,7 +27,7 @@ public class IntersectionOf2Arrayys {
         }
         
         for (int i : arr2) {
-            if (set.contains(i)) {
+            if (!set.add(i)) {
                 System.out.print(i + " ");
             }
         }
