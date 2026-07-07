@@ -8,6 +8,8 @@ Number of Consonents:4
 Number of Numbers:4
 */
 
+import java.util.Scanner;
+
 public class Question26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
